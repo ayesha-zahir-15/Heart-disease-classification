@@ -13,7 +13,7 @@ Early identification of heart disease risk can help guide preventive care. This 
 1. **Data Cleaning** — handled missing values
 2. **Exploratory Data Analysis** — examined feature distributions and correlations with heart disease risk
 3. **Feature Engineering** — encoded categorical variables, applied **StandardScaler** to normalize feature ranges
-4. **Model Training** — reshaped target labels using `.ravel()`, then fit a logistic regression model for binary classification
+4. **Model Training** — reshaped target labels using `.ravel()`, used **GridSearchCV** to tune hyperparameters, then fit a logistic regression model for binary classification
 5. **Evaluation** — assessed performance using accuracy, confusion matrix, and classification report
 
 ## Results
@@ -31,7 +31,7 @@ Python, pandas, NumPy, scikit-learn, matplotlib/seaborn, Jupyter Notebook
 ## How to Run
 1. Clone this repository
 2. Install dependencies: `pip install pandas numpy scikit-learn matplotlib seaborn`
-3. Open and run `notebook.ipynb` in Jupyter Notebook
+3. Open and run `LogisticRegression_HeartDisease.ipynb` in Jupyter Notebook
 
 ## Files
 - `LogisticRegression_HeartDisease.ipynb` — main analysis and model
